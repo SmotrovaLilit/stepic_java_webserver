@@ -1,0 +1,8 @@
+.idea/
+target/
+out
+.DS_Store
+task1/.idea/
+task2/.idea/
+task1/*.iml
+task2/*.iml
