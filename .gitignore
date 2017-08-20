@@ -6,3 +6,7 @@ task1/.idea/
 task2/.idea/
 task1/*.iml
 task2/*.iml
+task3/jdbc/*.db
+task3/hr/*.db
+task3/jdbc/test/*.db
+task3/hr/test/*.db

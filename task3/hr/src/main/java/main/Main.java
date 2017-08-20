@@ -1,6 +1,7 @@
 package main;
 
 import accounts.AccountService;
+import dbService.DBService;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
@@ -21,7 +22,7 @@ public class Main {
         contextHandler.addServlet(new ServletHolder(signUpServlet), "/signup");
         contextHandler.addServlet(new ServletHolder(signInServlet), "/signin");
 
-        Server server = new Server(8080);
+        Server server = new Server(8088 );
         server.setHandler(contextHandler);
         server.start();
         System.out.println("Server started");
